@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\lexical_analizer.obj",
+            "outputs": [
+                "Debug\\lexical_analizer.cpp.obj.dt.module.json",
+                "Debug\\lexical_analizer.cpp.obj.dt.d.json",
+                "Debug\\Script.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

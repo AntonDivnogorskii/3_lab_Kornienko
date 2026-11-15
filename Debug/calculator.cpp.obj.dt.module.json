@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\calculator.obj",
+            "outputs": [
+                "Debug\\calculator.cpp.obj.dt.module.json",
+                "Debug\\calculator.cpp.obj.dt.d.json",
+                "Debug\\Script.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

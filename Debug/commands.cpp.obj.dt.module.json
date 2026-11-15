@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\commands.obj",
+            "outputs": [
+                "Debug\\commands.cpp.obj.dt.module.json",
+                "Debug\\commands.cpp.obj.dt.d.json",
+                "Debug\\Script.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

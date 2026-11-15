@@ -1,0 +1,4 @@
+LET B = 10 / 2
+PRINT B
+LET C = 10 / 0
+PRINT C

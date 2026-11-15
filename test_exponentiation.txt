@@ -1,0 +1,6 @@
+LET A = 2 ^ 3
+PRINT A
+LET B = 2 + 3 ^ 2
+PRINT B
+LET C = 2 ^ 3 ^ 2
+PRINT C

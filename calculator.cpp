@@ -53,24 +53,37 @@ float prim(Parser& parser) {
   }
 }
 
+// Обрабатывает возведение в степень
+float power(Parser& parser) {
+    float left = prim(parser);
+
+    if (parser.get_last().type == LT_Delimiter &&
+        parser.get_last().delimiter == '^') {
+        float right = power(parser);
+        return static_cast<float>(pow(left, right));
+    }
+
+    return left;
+}
+
 // Обрабатывает умножение и деление
 float term(Parser& parser) {
-  float left = prim(parser);
+    float left = power(parser);
 
   for (;;) {
     if (parser.get_last().type == LT_Delimiter) {
       switch (parser.get_last().delimiter)
       {
       case '*':
-        left*=prim(parser);
+          left *= power(parser);
         break;
       case '/':
         { const float precision=1.0e-5f;
-        float d = prim(parser);
+        float d = power(parser);
         if (fabs(d) < precision) {
-          left/=d;
+            throw "Devide by zero";
         } else
-          throw "Devide by zero";
+            left /= d;
         }
         break;
       default:
@@ -131,4 +144,3 @@ float evaluate_expression(Parser& parser) {
   }
   return left;
 }
-
