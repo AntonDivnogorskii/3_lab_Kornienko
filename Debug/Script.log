@@ -1,0 +1,13 @@
+﻿cl : командная строка  warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  stdafx.cpp
+cl : командная строка  warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  Script.cpp
+  name_table.cpp
+  lexical_analizer.cpp
+  label_table.cpp
+  executor.cpp
+  commands.cpp
+  calculator.cpp
+  Создание кода...
+calculator.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  Script.vcxproj -> C:\Users\anton\Documents\Uni\Projects\Mine\Kornienko\3 lab\Debug\Script.exe

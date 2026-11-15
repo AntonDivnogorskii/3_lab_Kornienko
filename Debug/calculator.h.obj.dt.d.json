@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\anton\\documents\\uni\\projects\\mine\\kornienko\\3 lab\\calculator.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\anton\\documents\\uni\\projects\\mine\\kornienko\\3 lab\\lexical_analizer.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
